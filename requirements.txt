@@ -1,0 +1,6 @@
+# Steward x402 recipe for CrewAI
+crewai>=0.100.0
+crewai-tools>=0.30.0
+mcp>=1.0.0
+# One LLM provider key required at runtime (CrewAI uses litellm):
+#   OPENAI_API_KEY, ANTHROPIC_API_KEY, GOOGLE_API_KEY, etc.
